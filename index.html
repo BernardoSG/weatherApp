@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+
+<body>
+    <div class="container p-4">
+        <div class="row">
+            <div class="col-md-12 col-lg-6 mx-auto text-center">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 id="weather-location" class="h3">Search one City</h1>
+                        <div class="climaEicono">
+
+                            <h3 class="climaEiconoTexto" id="weather-description"></h3>
+                                <img src="" width="50px" id="imgClima" alt="">
+                        </div>
+                        
+                        <h3 id="weather-string"></h3>
+                        <ul class="list-group mt-3">
+                            <li id="weather-humidity" class="list-group-item">
+
+                            </li>
+                            <li id="weather-wind" class="list-group-item">
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <form action="" id="w-form">
+                            <div class="form-group">
+                                <input id="city" autofocus placeholder="city" class="form-control" type="text">
+                            </div>
+                            <div class="form-group">
+                                <input id="countryCode" placeholder="Country Code" class="form-control" type="text">
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-dark btn-block" id="w-change-btn" type="button">
+                                    Cambias Pais
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app/index.js"></script>
+</body>
+
+</html>
